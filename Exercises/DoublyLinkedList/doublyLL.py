@@ -130,5 +130,5 @@ class DoublyLinkedList:
 my_doubly_ll = DoublyLinkedList(2)
 my_doubly_ll.append(3)
 my_doubly_ll.prepend(1)
-my_doubly_ll.insert(1, 4)
+my_doubly_ll.reverse()
 my_doubly_ll.print_list()
