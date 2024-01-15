@@ -39,13 +39,6 @@ class LinkedList:
     def make_empty(self):
         self.head = None
         self.length = 0
-
-    # WRITE REVERSE_BETWEEN METHOD HERE #
-    #                                   #
-    #                                   #
-    #                                   #
-    #                                   #
-    #####################################
     
     def reverse_between(self, start_index, end_index):
         if self.length <= 1:

@@ -43,13 +43,6 @@ class LinkedList:
                 temp = temp.next
             print(" -> ".join(values)) 
 
-    # WRITE BINARY_TO_DECIMAL METHOD HERE #
-    #                                     #
-    #                                     #
-    #                                     #
-    #                                     #
-    #######################################
-    
     def binary_to_decimal(self):
         current = self.head
         decimal = 0
