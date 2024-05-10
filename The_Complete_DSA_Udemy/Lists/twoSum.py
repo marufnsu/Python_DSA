@@ -14,6 +14,7 @@ Possible Clarification Questions:
 - Do we need to print only distinct pairs? Does (3, 3) is valid pair for given sum 0f 6?
 - How big is the array?
 ''' 
+from typing import List
 
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
